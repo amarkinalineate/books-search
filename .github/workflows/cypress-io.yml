@@ -42,9 +42,9 @@ jobs:
           name: Cypress screenshots
           path: cypress/screenshots
 
-      - name: Upload Cypress Video
-        uses: actions/upload-artifact@v2
-        if: failure()
-        with:
-          name: Cypress video
-          path: cypress/video
+      # - name: Upload Cypress Video
+      #   uses: actions/upload-artifact@v2
+      #   if: failure()
+      #   with:
+      #     name: Cypress video
+      #     path: cypress/video
