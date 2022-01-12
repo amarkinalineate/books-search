@@ -10,9 +10,12 @@ on:
 jobs:
   start:
     runs-on: ubuntu-latest
-    container: 
-      image: cypress/included:8.6.0   
+    container:
+      image: cypress/included:9.2.1
       options: --ipc=host
+    env:
+      CYPRESS_PROJECT_ID: ${{secrets.CYPRESS_PROJECT_ID}}
+      CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -27,11 +30,11 @@ jobs:
         run: npm ci
 
       - name: Install Start Server and Test
-        run : npm install start-server-and-test --no-save
+        run: npm install start-server-and-test --no-save
 
       - name: Run Application and Cypress E2E Tests
-        run : npx start-server-and-test start http://localhost:3000 cypess:run
-       
+        run: npx start-server-and-test start http://localhost:3000 cypess:run
+
       - name: Upload Cypress Screenshots
         uses: actions/upload-artifact@v2
         if: failure()
@@ -45,4 +48,3 @@ jobs:
         with:
           name: Cypress video
           path: cypress/video
-
