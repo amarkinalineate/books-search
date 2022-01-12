@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "prettier": "prettier --write {src,public}/**/*.{js,ts,jsx,tsx,css,json,html}",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run --record"
   },
   "eslintConfig": {
     "extends": "react-app"
