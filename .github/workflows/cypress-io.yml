@@ -14,12 +14,21 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
 
-      - name: Run Cypress E2E Tests
-        uses: cypress-io/github-action@v2
-        with:
-          start: npm start
-          wait-on: 'http://localhost:3000'
+      # - name: Run Cypress E2E Tests
+      #   uses: cypress-io/github-action@v2
+      #   with:
+      #     start: npm start
+      #     wait-on: 'http://localhost:3000'
 
+      - name: NPM Install
+        run: npm ci
+
+      - name: Install Start Server and Test
+        run : npm install start-server-and-test --no-save
+
+      - name: Run Application and Cypress E2E Tests
+        run : npx start-server-and-test start http://localhost:3000 cypess:run
+       
       - name: Upload Cypress Screenshots
         uses: actions/upload-artifact@v2
         if: failure()
