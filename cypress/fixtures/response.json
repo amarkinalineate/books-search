@@ -1,0 +1,202 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 354,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "DmUr6q1EDYMC",
+        "etag": "ic/bfdQIiq8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/DmUr6q1EDYMC",
+        "volumeInfo": {
+          "title": "The Hitchhiker's Guide to the Galaxy",
+          "subtitle": "42nd Anniversary Edition",
+          "authors": [
+            "Douglas Adams"
+          ],
+          "publisher": "Pan Macmillan",
+          "publishedDate": "2009-09-01",
+          "description": "'One of the greatest achievements in comedy. A work of staggering genius' - David Walliams An international phenomenon and pop-culture classic, The Hitchhiker's Guide to the Galaxy has been a radio show, TV series, novel, stage play, comic book and film. Following the galactic (mis)adventures of Arthur Dent, Hitchhiker’s in its various incarnations has captured the imaginations of curious minds around the world . . . It's an ordinary Thursday lunchtime for Arthur Dent until his house gets demolished. The Earth follows shortly afterwards to make way for a new hyperspace express route, and his best friend has just announced that he's an alien. At this moment, they're hurtling through space with nothing but their towels and an innocuous-looking book inscribed, in large friendly letters, with the words: DON'T PANIC. The weekend has only just begun . . . With exclusive bonus material from the Douglas Adams archives, and an introduction by former Doctor Who showrunner, Russell T Davies. The intergalactic adventures of Arthur Dent begin in the first volume of the 'trilogy of five', Douglas Adams' comedy sci-fi classic The Hitchhiker's Guide to the Galaxy.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780330513081"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0330513087"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "averageRating": 4.5,
+          "ratingsCount": 99,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "2.31.30.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=DmUr6q1EDYMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=DmUr6q1EDYMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.ru/books?id=DmUr6q1EDYMC&printsec=frontcover&dq=inauthor:Douglas+Adams&hl=&as_brr=5&cd=5&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=DmUr6q1EDYMC&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=DmUr6q1EDYMC"
+        },
+        "saleInfo": {
+          "country": "RU",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 687.6,
+            "currencyCode": "RUB"
+          },
+          "retailPrice": {
+            "amount": 618.84,
+            "currencyCode": "RUB"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=DmUr6q1EDYMC&rdid=book-DmUr6q1EDYMC&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 687600000,
+                "currencyCode": "RUB"
+              },
+              "retailPrice": {
+                "amountInMicros": 618840000,
+                "currencyCode": "RUB"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "RU",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.ru/books/download/The_Hitchhiker_s_Guide_to_the_Galaxy-sample-epub.acsm?id=DmUr6q1EDYMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=DmUr6q1EDYMC&hl=&as_brr=5&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "The weekend has only just begun . . . This 42nd Anniversary Edition includes exclusive bonus material from the Douglas Adams archives, and an introduction by former Doctor Who showrunner, Russell T Davies."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "zq6R7xXqNt0C",
+        "etag": "EE8pXuur0GI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/zq6R7xXqNt0C",
+        "volumeInfo": {
+          "title": "So Long, and Thanks for All the Fish",
+          "authors": [
+            "Douglas Adams"
+          ],
+          "publisher": "Pan Macmillan",
+          "publishedDate": "2009-09-01",
+          "description": "So Long, and Thanks for All the Fish is the fourth installment in Douglas Adams' bestselling cult classic, the Hitchhiker's Guide to the Galaxy 'trilogy'. This edition includes exclusive bonus material from the Douglas Adams archives, and an introduction by Neil Gaiman. There is a knack to flying. The knack lies in learning how to throw yourself at the ground and miss. It's not an easy thing to do, and Arthur Dent thinks he's the only human who's been able to master this nifty little trick – until he meets Fenchurch, the woman of his dreams. Fenchurch once realized how the world could be made a good and happy place. Unfortunately, she's forgotten. Convinced that the secret lies within God's Final Message to His Creation, they go in search of it. And, in a dramatic break with tradition, actually find it . . . Follow Arthur Dent's galactic (mis)adventures in the last of the 'trilogy of five', Mostly Harmless.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780330513173"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0330513176"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "averageRating": 4,
+          "ratingsCount": 50,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "2.12.9.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=zq6R7xXqNt0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=zq6R7xXqNt0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.ru/books?id=zq6R7xXqNt0C&printsec=frontcover&dq=inauthor:Douglas+Adams&hl=&as_brr=5&cd=6&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=zq6R7xXqNt0C&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=zq6R7xXqNt0C"
+        },
+        "saleInfo": {
+          "country": "RU",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 687.6,
+            "currencyCode": "RUB"
+          },
+          "retailPrice": {
+            "amount": 618.84,
+            "currencyCode": "RUB"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=zq6R7xXqNt0C&rdid=book-zq6R7xXqNt0C&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 687600000,
+                "currencyCode": "RUB"
+              },
+              "retailPrice": {
+                "amountInMicros": 618840000,
+                "currencyCode": "RUB"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "RU",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.ru/books/download/So_Long_and_Thanks_for_All_the_Fish-sample-epub.acsm?id=zq6R7xXqNt0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=zq6R7xXqNt0C&hl=&as_brr=5&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "This edition includes exclusive bonus material from the Douglas Adams archives, and an introduction by Neil Gaiman. There is a knack to flying. The knack lies in learning how to throw yourself at the ground and miss."
+        }
+      }
+    ]
+  }
+  

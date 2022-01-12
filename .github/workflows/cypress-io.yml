@@ -1,0 +1,36 @@
+name: "Cypress CI Tests"
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      name: Checkout Code
+      uses: actions/checkout@v2
+
+      name: Run Cypress E2E Tests
+      uses: cypress-io/github-action@v2
+      with:
+        start: npm start
+        wait-on: 'http://localhost:3000'
+
+      name: Upload Cypress Screenshots
+      uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: Cypress screenshots
+        path: cypress/screenshots
+
+       name: Upload Cypress Video
+      uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: Cypress video
+        path: cypress/video
+
