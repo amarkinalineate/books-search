@@ -33,7 +33,7 @@ jobs:
         run: npm install start-server-and-test --no-save
 
       - name: Run Application and Cypress E2E Tests
-        run: npx start-server-and-test start http://localhost:3000 cypess:run
+        run: npx start-server-and-test start http://localhost:3000 cypress:run
 
       - name: Upload Cypress Screenshots
         uses: actions/upload-artifact@v2
