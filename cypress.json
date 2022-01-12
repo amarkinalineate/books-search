@@ -1,5 +1,9 @@
 {
     "$schema": "https://on.cypress.io/cypress.schema.json",
+    "retries": {
+        "runMode": 3,
+        "openMode": 2
+    },
     "baseUrl": "http://localhost:3000",
     "ignoreTestFiles": ["**/1-getting-started/*", "**/2-advanced-examples/*"]
 }
