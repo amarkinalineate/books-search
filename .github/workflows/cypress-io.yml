@@ -1,6 +1,7 @@
-name: "Cypress CI Tests"
+name: Cypress CI Tests
 
 on:
+  # Manual button click from the GitHub UI
   workflow_dispatch:
   push:
     branches: [main]
@@ -10,12 +11,10 @@ on:
 jobs:
   start:
     runs-on: ubuntu-latest
-    container:
-      image: cypress/included:9.2.1
-      options: --ipc=host
-    # env:
-    #   CYPRESS_PROJECT_ID: ${{secrets.CYPRESS_PROJECT_ID}}
-    #   CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
+    # container:
+    #   image: cypress/included:9.1.1
+    #   options: --ipc=host
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -27,9 +26,9 @@ jobs:
           wait-on: 'http://localhost:3000'
           record: true
         env:
-           CYPRESS_PROJECT_ID: ${{secrets.CYPRESS_PROJECT_ID}}
-           CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
-           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # - name: NPM Install
       #   run: npm ci
@@ -47,9 +46,9 @@ jobs:
       #     name: Cypress screenshots
       #     path: cypress/screenshots
 
-      # - name: Upload Cypress Video
+      # - name: Upload Cypress Videos
       #   uses: actions/upload-artifact@v2
       #   if: failure()
       #   with:
-      #     name: Cypress video
-      #     path: cypress/video
+      #     name: Cypress videos
+      #     path: cypress/videos
